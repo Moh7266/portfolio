@@ -141,38 +141,33 @@ header {
     text-align: center;
     background-color: rgba(75, 75, 75, 0.378);
 }
+
 footer{
-    width: 95%;
-    margin: auto;
-    text-align: center;
+    width: 80%;
+    /* height: auto; */
     background-color: rgba(75, 75, 75, 0.378);
+    margin: auto;  
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-footer form  div input{
-    width: 25%;
-    margin: 1em;
-    height: 2em;
-    padding: 0.5em;
-    background-color: transparent;
-    border: 1px solid rgb(0, 128, 255);
+footer .compte {
+    display: flex;
+    padding-left: 45%;
+    padding-right: 45%;
 }
-
-footer form input{
-
-    width: 52.5%;
+footer .compte a{
+    text-decoration: none;
     margin: 1em;
-    height: 2em;
-    padding: 0.5em;
-    background-color: transparent;
-    border: 1px solid rgb(0, 128, 255);
 }
-footer form textarea{
-    width: 52.5%;
-    margin: 1em;
-    padding: 0.5em;
-    background-color: transparent;
-    border: 1px solid rgb(0, 128, 255);
+footer .compte pre{
+    color: #fff;
+    font-size: xx-large;
+}
+.html{
+    padding: 1em;
+}
+.html img{
+    width: 15em;
 }
 
 
