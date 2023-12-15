@@ -14,6 +14,7 @@ body{
 }
 .sec{
     color: #ff8000;
+    font-weight: bolder;
 }
 .bold{
  font-weight: bolder;
@@ -27,20 +28,22 @@ header {
     align-items: center;
 }
 
-.navbar ul {
+.navbar ul  {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
 
-.navbar ul li {
+.navbar ul li a{
     padding: 1vw;
-    font-size: 3.5vw;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.5vw;
     font-weight: bolder;
 }
 
 .nom {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     font-weight: bolder;
 }
 .propos{
@@ -170,49 +173,126 @@ footer .compte pre{
     width: 15em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media Query for Tablets and larger devices */
-@media only screen and (min-width: 768px) {
-    header {
-        height: 10vh;
-    }
-
-    .navbar ul li {
-        font-size: 1.5vw;
-    }
-
-    .nom {
-        font-size: 1.5vw;
-    }
-    
-    
+.ang img{
+ width: 100%;
 }
 
-/* Media Query for Desktops and larger devices */
-@media only screen and (min-width: 1024px) {
-    header {
-        height: 12vh;
+@media screen and (min-width:768px) and (max-width:1023px) {
+   
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Gill Sans", sans-serif;
+    }
+   
+    header{
+        width: 100%;
+    }
+    .propos{
+        margin: 2em;
+        display: inline-block;
+        /* align-items: center; */
+        /* justify-content: center; */
+       }
+
+       .resume{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2em;
     }
 
+    .propos .photo{
+        width: 100%;
+        text-align: center;
+    }
     .navbar ul li {
-        font-size: 1.2vw;
+        padding: 1vw;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+    .outil{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2em;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .service{
+        text-align: center;
+        padding-top: 0.5em;
+        margin-bottom: 2em;
+    }
+    .propos{
+        margin: 2em;
+       }
+       footer .compte {
+        display: flex;
+        padding-left: 40%;
+        padding-right: 45%;
+    }
+    
+
+}
+@media screen and (max-width:768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Gill Sans", sans-serif;
+    }
+   
+    header{
+        width: 100%;
+    }
+    .propos{
+        margin: 2em;
+        display: inline-block;
+        /* align-items: center; */
+        /* justify-content: center; */
+       }
+
+       .resume{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2em;
     }
 
-    .nom {
-        font-size: 1.2vw;
+    .propos .photo{
+        width: 100%;
+        text-align: center;
+    }
+    .navbar ul li {
+        padding: 1vw;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+    .outil{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2em;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .comp{
+        display: inline-block;
+        width: 100%;
+        /* border: 1px solid #FFF; */
+        justify-content: space-between;
+    
+    }
+    .comp div{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 2em;
+    }
+    .propos{
+        margin: 2em;
+       }
+       footer .compte {
+        display: flex;
+        padding-left: 40%;
+        padding-right: 45%;
     }
 }

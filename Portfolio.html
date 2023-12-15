@@ -9,17 +9,16 @@
 <body>
     <header>
         <div class="nom">Mamadou FADIGA</div>
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <ul>
-                <li>Accueil</li>
-                <li>A propos</li>
-                <li>Services</li>
-                <li>Contacts</li>
+                <li><a href="#propos">A propos</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#contact">Contacts</a></li>
             </ul>
         </div>
     </header>
 
-    <div class="propos">
+    <div class="propos" id="propos">
         <div class="resume">
            <h1>A propos de <span class="pri">moi</span></h1>
            <h2>Developpeur fullstack</h2> 
@@ -31,17 +30,19 @@
             J'enseigne actuellement l'informatique au <span class="bold">Lycée Mamady Diané</span> de Sébénicoro et la biologie, physique-chimie au niveau du second cycle.
         </p>
 
-        <button class="button">Téléchargez mon CV</button>
+        <a href="images/Fadiga.pdf" download="CV_Mamadou_FADIGA.pdf">
+            <button class="button">Téléchargez mon CV</button>
+        </a>
 
         </div>
         <div class="photo">
-            <img src="images/profil.png" alt="">
+            <img src="images/phtoto.png" alt="">
         </div>
     </div>
     <div class="hr">
     </div>
-    <div class="service">
-        <h1>Service et <span class="pri">Offres</span> </h1>
+    <div class="service" id="service">
+        <h1>Services et <span class="pri">Offres</span> </h1>
     </div>
 
     <div class="comp">
@@ -80,11 +81,17 @@
             <img src="images/spting-boot-removebg-preview.png" alt="">
         </div>
         <div class="html">
-            <img src="images/flutter.png" alt="">
+            <img src="images/RMERD.png" alt="">
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="ang">
+            <img src="images/New-Project-41-1-removebg-preview.png" alt="">
+        </div>
+        <div class="ang">
+            <img src="images/trello.png" alt="">
+        </div>
+        <div class="ang">
+            <img src="images/draw.png" alt="">
+        </div>
     </div>
 
     <div class="hr">
@@ -92,7 +99,7 @@
     <div class="service">
         <h1>Contactez <span class="pri">moi</span> </h1>
     </div>
-<footer>
+<footer id="contact">
    <div class="compte">
         <a href="mailto:mohamedfdg72@gmail.com">
             <pre><code>&#9993;</code></pre>
