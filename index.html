@@ -3,115 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="protfolio.css">
-    <title>Mamadou FADIGA</title>
+    <link rel="stylesheet" href="portfolio.css">
+
+    <!-- box icon link -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- remix icon link -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+    <!-- Google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Portfolio Fadiga</title>
 </head>
 <body>
-    <header>
-        <div class="nom">Mamadou FADIGA</div>
-        <div class="navbar" id="navbar">
-            <ul>
-                <li><a href="#propos">A propos</a></li>
-                <li><a href="#service">Services</a></li>
-                <li><a href="#contact">Contacts</a></li>
-            </ul>
+     <!-- Header -->
+     <header>
+        <a href="#" class="logo">Developpeur <span>Fullstack</span></a>
+
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
+        
+        <nav class="nav-bar">
+            <ul class="navlist">
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="#about">Apropos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projets</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li>
+                <a href="https://github.com/Moh7266?tab=repositories" class="h-btn">Github</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="propos" id="propos">
-        <div class="resume">
-           <h1>A propos de <span class="pri">moi</span></h1>
-           <h2>Developpeur fullstack</h2> 
-           <p>Je suis <span class="bold">Mamadou FADIGA</span> passionné par le travail d'équipe, l'acquisition de nouvelles compétences en matière de technologie et le
-             partage de connaissances. <br> Je suis detenteur 
-            d'une licence en informatique de
-             gestion et fruit d'<span class="sec">Orange Digtal Kalanso</span> troisième promotion
-            (ODK 3).
-            J'enseigne actuellement l'informatique au <span class="bold">Lycée Mamady Diané</span> de Sébénicoro et la biologie, physique-chimie au niveau du second cycle.
-        </p>
-
-        <a href="images/Fadiga.pdf" download="CV_Mamadou_FADIGA.pdf">
-            <button class="button">Téléchargez mon CV</button>
-        </a>
-
+     <!-- hero -->
+    <section class="hero" id="home">
+        <div class="main-content">
+            <h4>Bonjour et bienvenue !!!</h4>
+            <h1> Je suis <span>Mamadou FADIGA</span></h1>
+            <P>Développeur web et mobile passionné par le travail d'équipe, l'acquisition 
+                de nouvelles compétences et le partage de connaissances. <br> Actuel vice-président du club d'anglais <span>BIG-HOPE-MALI</span> ; je suis diplomé de l'Institut de Formation de Maître ( <span>I.F.M</span> )
+                detenteur d'une licence en informatique de gestique de gestion et 
+                fruit d'<span>Orange Digital Kalanso 3.</span><br>
+                Actuellement, je dispance les cours d'informatique au lycée, les cours de 
+                biologie et physique-chimie au niveau fondamental ( <span>Second cycle</span>).
+            </P>
+            <div class="social">
+                <a href="https://www.facebook.com/mamadou.fadiga.716"><i class="ri-facebook-fill"></i></a>
+                <a href="https://wa.me/message/UUSVQXC5XTADB1"><i class="ri-whatsapp-fill"></i></i></a>
+                <a href="www.linkedin.com/in/mamadou-fadiga-6659a3236"><i class="ri-linkedin-line"></i></a>
+                <a href="mailto:mohamedfdg72@gmail.com"><i class="ri-mail-line"></i></a>
+            </div>
+            <div class="main-btn">
+                <a href="images/Fadiga.pdf" download="Cv_Fadiga.pdf" class="btn">Télécharger mon CV</a>
+            </div>
         </div>
-        <div class="photo">
+    </section>
+
+    <!-- A propos -->
+    <section class="about" id="about">
+        <div class="about-img">
             <img src="images/phtoto.png" alt="">
         </div>
-    </div>
-    <div class="hr">
-    </div>
-    <div class="service" id="service">
-        <h1>Services et <span class="pri">Offres</span> </h1>
-    </div>
+        <div class="about-text">
+            <h2>Dévelopeur web/mobile et<span> Designer</span></h2>
+        
+            <div class="exp-area">
+               
+                <p class="exp">
+                    Spécialité:
+                    <span>Développement d'application web et mobile</span>
+                </p>
+                <p class="exp">
+                    Adresse:
+                    <span>Lafiabougou; Rue: 213 ; Porte: 260</span>
+                </p>
+                <p class="exp">
+                    Email:
+                    <span>mohamedfdg72@gmail.com</span>
+                </p>
+                <p class="exp">
+                    Téléphone:
+                    <span>(00223) 72 66 42 29/ 51 53 93 95</span>
+                </p>
+                <p class="exp">
+                    Freelance:
+                    <span>Disponible</span>
+                </p>
+            </div>
+            <a href="#portfolio" class="btn">Voir mes projets</a>
+        </div>
+    </section>
 
-    <div class="comp">
-        <div>
-            <pre><code>&lt;/&gt;</code></pre>
-            <h2>Développement web et mobile</h2>
-            <P>
-                Je suis développeur web et mobile certifié par <span class="sec">Orange Digtal Kalanso</span> 
-                à la suite de formation intensive de 7 mois dans dans ce domaine.
-                Durant cette periode nous avons acquis beaucoup de notion dans le domaine de développement
-                telque les bonnes pratiques lors du développement d'un projet et beaucoup de technologie
-                quasi indipensable dans le domais du développement web et mobile.
-            </P>
+     <!-- +++++++++++++++++++++++++SERVICE++++++++++++++++++ -->
+     <section class="services" id="services">
+        <div class="center-text">
+            <h2>Mes <span>Services</span></h2>
         </div>
-        <div>
-            <pre><code>&#9998;</code></pre>
-            <h2>Design graphique</h2>
-            <P>
-                Durant tout mon parcours j'ai eu à ameliorer mes compétences en matière
-                de design. Je peux faire des affiches et logo avec <span class="sec">Adobe Photoshop</span> et j'ai aussi
-                appris le maquettage et le prototipage des applications avec l'outil <span class="sec">Figma</span>.
-            </P>
-        </div>
-    </div>
-    <div class="hr">
-    </div>
-    <div class="service">
-        <h1>Quelques <span class="pri">technologie</span> </h1>
-    </div>
 
-    <div class="outil">
-        <div class="html">
-            <img src="images/base.png" alt="">
-        </div>
-        <div class="html">
-            <img src="images/spting-boot-removebg-preview.png" alt="">
-        </div>
-        <div class="html">
-            <img src="images/RMERD.png" alt="">
-        </div>
-        <div class="ang">
-            <img src="images/New-Project-41-1-removebg-preview.png" alt="">
-        </div>
-        <div class="ang">
-            <img src="images/trello.png" alt="">
-        </div>
-        <div class="ang">
-            <img src="images/draw.png" alt="">
-        </div>
-    </div>
+        <div class="services-content">
+           <div class="box">
+            <img src="images/code-box-fill.png" alt="IMG">
+            <h3>Développeur</h3>
+            <p>Je dévéloppe des applications web et mobile 
+                et je suis apte à travailler en equipe et en freelance.
+            </p>
 
-    <div class="hr">
-    </div>
-    <div class="service">
-        <h1>Contactez <span class="pri">moi</span> </h1>
-    </div>
-<footer id="contact">
-   <div class="compte">
-        <a href="mailto:mohamedfdg72@gmail.com">
-            <pre><code>&#9993;</code></pre>
+           </div>
+           <!-- ======================================= -->
+           <div class="box">
+            <img src="images/palette-fill.png" alt="IMG">
+            <h3>Designer</h3>
+            <p>Je confectionne des affiches publicitaires, 
+                des logos et la maquette des applications web et mobile.
+            </p>
+           </div>
+           <!-- ======================================== -->
+           <div class="box">
+            <img src="images/presentation-line.png" alt="IMG">
+            <h3>Ensignant</h3>
+            <p>J'enseigne la biologie et la physique-chimie dans les écoles fondamentales
+                et l'informatique au lycée.
+            </p>
+           </div>
+        </div>
+    </section>
+
+
+    <!-- +++++++++++++++++++++++++++++++ portfolio++++++++++++++++++++++ -->
+    <section class="portfolio" id="portfolio">
+        <div class="center-text">
+            <h2>Mes <span>projets</span></h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="images/rdv.png" alt="img ici">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Application de gestion Rendez-vous</h5>
+                    </div>
+                    <div class="row-icon">
+                       <a href="https://github.com/Almaimoune9/TP_Gestion_RDV_App"><i class="ri-github-fill"></i></a> 
+                    </div>
+                </div>
+                <!-- <h4>Dévélopper avec Angular</h4> -->
+            </div>
+            <div class="row">
+                <img src="images/api.png" alt="img ici">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Création API de quizz en equipe</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href="https://github.com/Overhaul2/TP-Creation_API_REST"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <!-- <h4>Dévélopper avec Spring boot</h4> -->
+            </div>
+            <div class="row">
+                <img src="images/Pixel True Mockup.png" alt="img ici">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Bamako Delices en solo</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href="https://github.com/Moh7266/BkoDelices_Mobile"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <!-- <h4>Dévélopper avec Flutter</h4> -->
+            </div>
+            <div class="row">
+                <img src="images/api.png" alt="img ici">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>API gestion budget personnel</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href="https://github.com/maigaib/apiBudget"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <!-- <h4>Dévélopper avec Spring boot</h4> -->
+            </div>
+            <div class="row">
+                <img src="images/quiz.png" alt="img ici">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Application Quiz-Master en équipe</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href="https://github.com/touredri/API-Quiz-Master"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <!-- <h4>Dévélopper avec ionic en groupe</h4> -->
+            </div>
+            <div class="row">
+                <img src="images/portail.png" alt="img ici">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Site portail des apprenants certifiés</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href="https://github.com/Moh7266/portfolio"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+                <!-- <h4>Dévélopper en HTML/CSS et JS</h4> -->
+            </div>
+        </div>
+    </section>
+    <section class="langue" id="langue">
+        <div class="center-text">
+            <h2>Compétences<span> linguistique</span></h2>
+        </div>
+        <br>
+        <div class="langues">
+            
+            <div class="bamana">
+                <h3>Bamanakan :</h3>
+                <div class="progress">
+                    <div class="competence bamanan">
+                        Langue maternelle
+                    </div>
+                    
+                </div>
+            </div>
+           
+            <div class="bamana">
+                <h3>Français :</h3>
+                <div class="progress">
+                    <div class="competence français">
+                        TRES BIEN
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="bamana">
+                <h3>Anglais :</h3>
+                <div class="progress">
+                    <div class="competence anglais">
+                        BIEN
+                    </div>
+                    
+                </div>
+            </div>
+
+            
+           
+        </div>
+       
+
+
+    </section>
+    <section id="contact">
+        <div class="contact">
+            <a href="tel:+22372664229"><i class="ri-phone-fill"></i></a>
+            <a href="https://wa.me/message/UUSVQXC5XTADB1"><i class="ri-whatsapp-fill"></i></i></a>
+            <a href="https://www.facebook.com/mamadou.fadiga.716"><i class="ri-facebook-fill"></i></a>
+            <a href="www.linkedin.com/in/mamadou-fadiga-6659a3236"><i class="ri-linkedin-line"></i></a>
+            <a href="mailto:mohamedfdg72@gmail.com"><i class="ri-mail-line"></i></a>
+        </div>
+
+    </section>
+
+     <!-- ++++++++++++++++++++++++++++++FOOTER+++++++++++++++++++++++++++++++ -->
+     <div class="footer">
+        <div class="copyright">
+            <p>© 2024 Mamadou FADIGA. Tous droits réservés.</p>
+        </div>
+        <a href="#" class="scroll-top">
+            <i class="ri-arrow-up-s-fill"></i>
         </a>
-        <a href="tel:+22372664229">
-            <pre><code>&#9742;</code></pre>
-        </a>
-   </div>
-   <h6 style="text-align: center;">Copyright © : 2023-par Mamadou FADIGA</h6>
-    
-</footer>
-    
-    
+       </div>
+    <!-- javaScript link -->
+
+    <script src="script.js"></script>
 </body>
-</html>
